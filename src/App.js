@@ -56,7 +56,7 @@ function App() {
               className='w-1/2 md:w-1/4 h-[200px] p-2'
               key={item.source_items.id}>
               <div
-                className='w-full h-full flex items-center justify-center relative '
+                className='w-full h-full flex items-center justify-center relative shadow-md rounded'
                 onMouseOver={() => setHoveredItem(item.source_items.id)}
                 onMouseLeave={() => setHoveredItem("")}>
                 <div

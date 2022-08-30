@@ -31,6 +31,7 @@ function App() {
     }
   }, [])
 
+  //Sort the data
   const preProcessData = (data) => {
     return data.sort((a, b) => {
       return b?.source_items?.audience_size - a?.source_items?.audience_size
